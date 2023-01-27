@@ -140,7 +140,6 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -248,12 +247,6 @@ img {
   margin-right: auto;
   margin-top: 48px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-.hero-button:is(:hover, :focus) .button {
-  min-width: 170px;
-  height: 51px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* --------- Strategy ---------- */
